@@ -52,6 +52,20 @@
 .title_log{
     color:#333;
 }
+.logout-link {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.logout-link:hover {
+    color: #fff;
+    background-color: red;
+}
+
 @media (max-width: 768px) {
     .login-form, .register-form {
         width: 90%;
