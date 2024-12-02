@@ -1,0 +1,60 @@
+/* Styling for Login and Register Forms */
+.login-form, .register-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-form h2, .register-form h2 {
+    margin-bottom: 20px;
+    color: #0e0e0e;
+}
+
+.login-form input, .register-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+}
+
+.login-form button, .register-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form button:hover, .register-form button:hover {
+    background-color: #45a049;
+}
+
+.success {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.error {
+    color: #ff6b6b;
+    margin-bottom: 15px;
+}
+.title_log{
+    color:#333;
+}
+@media (max-width: 768px) {
+    .login-form, .register-form {
+        width: 90%;
+        margin-top: 50px;
+    }
+}
